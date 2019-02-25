@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+.zd_topmain{ box-shadow:0 2px 4px rgba(0,0,0,0.1); position:fixed; top:0; left:0; width:100%; background-color:#FFF; z-index:999}
+.zd_topmain img{ margin-top:23px; cursor:pointer}
+.zd_topmain input{ display:none}
+.zd_topmain a{ display:block; padding:0 40px; line-height:100px; float:left}
+.zd_topmain a span{ display:none}
+.zd_topmain a:hover{ background-color:#0e9fea; color:#fff;}
+.zd_topmain .zd_actvie{ background-color:#0e9fea; color:#fff;}
+
+.zd_banner{ position:relative; height:600px; overflow:hidden; margin-top:100px}
+.zd_banner img{ position:absolute; left:50%; top:0; margin-left:-960px}
+.zd_banner em{ display:block; position:absolute; width:100%; text-align:center; bottom:20px}
+.zd_banner em i{ display:inline-block; width:30px; height:5px; background-color:#fff; margin:0 10px; cursor:pointer}
+.zd_banner em .zd_actvie{ background-color:#0e9fea}
+.zd_banner p{position:absolute;width:1200px; margin-left:-600px; left:50%; top:40%; display:none}
+.zd_banner .check-left{ cursor:pointer; width:80px; height:80px; background:url(../image/banleft.png) center no-repeat;display:block; float:left; margin-left:-100px}
+.zd_banner .check-right{ cursor:pointer; width:80px; height:80px; background:url(../image/banright.png) center no-repeat;display:block; float:right; margin-right:-100px}
+
+.zd_width1200{ width:1200px;margin:auto}
+.zd_width1000{ width:1000px;margin:auto}
+.zd_title{ padding:45px 0 30px; margin:auto; text-align:center}
+.zd_title h1{ font-size:30px; color:#0e9fea}
+.zd_title h2{ color:#999; line-height:30px}
+.zd_title img{ margin:auto}
+
+.zd_product{ overflow:hidden; padding-bottom:80px}
+.zd_product li{width:250px; height:300px; text-align:center; overflow:hidden; cursor:pointer}
+
+.zd_product li img{ margin:45px auto 30px}
+.zd_product li span{ font-size:24px; color:#fff;}
+.zd_product .float-left{ background-color:#78c076}
+.zd_product .float-left:hover{ background-color:#64ae62}
+.zd_product .float-right{ background-color:#0bb3e2}
+.zd_product .float-right:hover{ background-color:#0d9fc8}
+.zd_product .margin-auto{ background-color:#04c6c4}
+.zd_product .margin-auto:hover{ background-color:#08a8a6}
+
+.zd_news{ overflow:hidden; padding-bottom:80px}
+.zd_newimg{ overflow:hidden; position:relative; width:500px; height:280px; float:left}
+.zd_newimg p{position:absolute; right:0; bottom:0; overflow:hidden}
+.zd_newimg p span{ background-color:rgba(0,0,0,0.5); padding:0 10px; color:#fdc415; height:36px; line-height:36px; float:left; display:block}
+.zd_newimg p input{ width:36px; height:36px; background:url(../image/btn1.png) center no-repeat; float:left; display:block; cursor:pointer}
+
+.zd_newtext{ background-color:#fff; padding:0 30px 40px; margin-left:530px; height:240px; box-shadow:0 1px 2px rgba(0,0,0,0.15); overflow:hidden; position:relative }
+.zd_newtext h1{ font-size:24px; line-height:54px; padding-top:10px  }
+.zd_newtext h2{ line-height:30px; text-align:justify}
+.zd_newtext h3{ height:40px; position:absolute; bottom:0; background-color:#FFF; width:100%; left:0}
+.zd_newtext h3 img{ float:right; margin-right:30px; cursor:pointer}
+
+.zd_ustext{ margin-right:430px}
+.zd_ustext h1{ margin:15px 0}
+.zd_ustext h1 span{ background-color:#f9ad09; color:#fff; height:32px; line-height:32px; padding:0 5px; margin-right:10px; display:inline-block}
+.zd_ustext h1 a{ font-size:24px; color:#4c4c4c; font-weight:bold}
+.zd_ustext h2{ line-height:30px; text-align:justify; text-indent:30px}
+.zd_usimg{ float:right}
+
+.zd_contact{ overflow:hidden; margin-top:100px; padding-bottom:80px}
+.zd_contact li{ text-align:center; width:33.3%; float:left}
+.zd_contact li img{ margin:auto}
+.zd_contact li h1{ line-height:60px; font-size:20px}
+.zd_contact li h2{ line-height:24px; color:#999;padding:0 50px; margin-bottom:15px}
+.zd_contact li h3 span{ display:inline-block; width:90px; line-height:24px; color:#fff; border-radius:12px; background-color:#25b9e7; cursor:pointer; font-size:14px}
+.zd_contact li h3 span:hover{ background-color:#16a5d2}
+.zd_contact li:last-child h3 span{ background-color:#60d292}
+.zd_contact li:last-child h3 span:hover{background-color:#45be7a}
+.zd_contact li h3 img{ display:inline-block; margin:0 10px;cursor:pointer}
+
+.zd_footmain{height:88px; background-color:#404144}
+.zd_footmain span{ line-height:88px; float:left; color:#FFF}
+.zd_footmain img{ float:right; margin-top:23px; cursor:pointer}
+.zd_footposabs{ position:absolute; bottom:0; width:100%}
+/*******************news*********************/
+.zd_banner1{ position:relative; height:240px; overflow:hidden; padding-top:100px}
+.zd_banner1 img{ position:absolute; left:50%; bottom:0; margin-left:-960px}
+
+.zd_newcont{ margin-bottom:80px}
+.zd_newcont li{ border-bottom:1px dotted #ccc; padding:30px 0;}
+.zd_newcont dt{ width:200px; height:140px; float:left; overflow:hidden}
+.zd_newcont dd{ margin-left:220px;height:140px; position:relative; overflow:hidden}
+.zd_newcont dd h1{ font-weight:bold; margin:10px 0; line-height:24px}
+.zd_newcont dd h2{ height:52px; line-height:26px; text-align:justify; overflow:hidden }
+.zd_newcont dd h3{ overflow:hidden; margin-top:20px}
+.zd_newcont dd h3 span{ font-size:14px; color:#999; float:left}
+.zd_newcont dd h3 a{ text-decoration:underline; color:#1e8fe7; float:right; margin-top:5px}
+
+/**********************fangan***************************/
+.zd_fangan{ margin:50px auto 100px}
+.zd_fangan li{ height:450px; overflow:hidden}
+.zd_fangan dl{ width:430px; margin-top:80px; overflow:hidden}
+.zd_fangan dt{ float:left;}
+.zd_fangan dt span{ height:40px; width:40px; display:block; border-radius:20px; background-color:#29a7e1; color:#fff; font-size:24px; text-align:center; line-height:40px}
+.zd_fangan dd{ margin-left:55px}
+.zd_fangan dd h1{ color:#0e9fea; line-height:40px; font-size:24px}
+.zd_fangan dd h2{ line-height:26px; height:52px; overflow:hidden; color:#808080; margin:15px 0 20px}
+.zd_fangan dd a{ display:block; width:120px; line-height:30px; background-color:#fd9427; text-align:center; color:#FFF; border-radius:2px }
+
+.zd_fanganimg1{ background:url(../image/p10.png) left center no-repeat}
+.zd_fanganimg2{ background:url(../image/p11.png) right center no-repeat}
+.zd_fanganimg3{ background:url(../image/p12.png) left center no-repeat}
+.zd_fanganimg4{ background:url(../image/p13.png) right center no-repeat}
+.zd_fanganimg5{ background:url(../image/p14.png) left center no-repeat}
+
+.zinav2{ float:left; width:178px; border:1px solid #e0e0e0; border-top:none;}
+.zinav2 a{ line-height:72px; text-align:center; font-size:18px; display:block; margin-left:-1px; margin-right:-1px}
+.zinav2 .active{background-color:#12976d; color:#FFF}
+
+.zinav3{ float:left; width:298px; border:1px solid #e0e0e0; border-top:none;}
+.zinav3 a{ line-height:72px; font-size:16px; display:block; margin-left:-1px; margin-right:-1px; padding-left:20px}
+.zinav3 .active{background-color:#19a77a; color:#FFF}
+
+.details{ border:1px solid #e0e0e0; border-top:none; padding:10px 50px; margin-bottom:50px; margin-left:330px; min-height:540px }
+.details span{ font-size:16px; line-height:28px; display:block; text-indent:30px; text-align:justify; color:#4c4c4c}
+
+
+/***************************zd_success******************************/
+.zd_success{ margin:50px auto 30px; overflow:hidden}
+.zd_success li{ width:360px; height:220px; float:left; margin:0 60px 50px 0; overflow:hidden; position:relative; cursor:pointer}
+.zd_success li span{ display:block; color:#fff; text-align:center; line-height:32px; background:url(../image/touming1.png); position:absolute; width:100%; left:0; bottom:0}
+.zd_success .nomagright{ margin-right:0}
+.zd_success li a{ position:absolute; width:100%; height:220px; left:0; top:0;}
+.zd_success li a:hover{ background:url(../image/touming.png)}
+
+.zd_complete{ margin:0 auto 80px; padding:0; border:none}
+
+/********************************zd_service**********************************/
+.zd_service{ overflow:hidden; margin:80px auto; min-height:420px }
+.zd_service li{ width:25%; float:left; text-align:center}
+.zd_service li img{ margin:auto}
+.zd_service li h1{ font-size:22px; line-height:60px; margin-top:10px}
+.zd_service li h2{ color:#666666}
+
+/********************************zd_about us**********************************/
+.zd_brief{ margin-left:210px; }
+.zd_brief iframe{ height:550px}
+.zd_honor{ overflow:hidden}
+.zd_honor li{ width:250px}
+.zd_honor img{ margin:auto}
+.list6{ margin-bottom:20px; overflow:hidden}
+.list6 h1 i{ width:40px; line-height:30px; border-radius:4px; float:left; display:inline-block; background-color:#12976d; color:#FFF; font-family:Arial; font-weight:bold; font-size:24px; text-align:center}
+.list6 h1 a{ line-height:30px; color:#12976d; font-size:20px; margin-left:60px; display:block; font-weight:bold}
+.list6 li{ padding-bottom:5px; margin-left:60px; margin-top:10px}
+.list6 li a{ line-height:28px; font-size:16px; display:inline-block}
+
+@media only screen and (max-width:1440px){
+	.zd_topmain img{ margin-top:18px; cursor:pointer}
+	.zd_topmain a{ display:block; padding:0 40px; line-height:90px; float:left}
+	.zd_banner{ position:relative; height:500px; overflow:hidden; margin-top:90px}
+	.zd_banner img{ position:absolute; left:50%; top:0; margin-left:-800px; width:1600px}
+	.zd_banner .check-left{ margin-left:-20px}
+	.zd_banner .check-right{ margin-right:-20px}
+	.zd_banner1{ padding-top:90px}
+	}
+	
+@media only screen and (max-width:450px){
+	.zd_width1200{ width:auto;margin:auto; padding:0 15px}
+    .zd_width1000{ width:auto;margin:auto; padding:0 15px}
+	.zd_topmain{ height:60px}
+	.zd_topmain .zd_width1200{padding:0}
+    .zd_topmain img{ width:200px; margin:10px 15px; float:none}
+	.zd_topmain input{ width:36px; height:36px; position:absolute; top:0; right:15px;border-radius:5px; margin:12px 0; background:url(../image/menu.png) center no-repeat #0e9fea; display:block}
+	.zd_topmain .float-right{ float:none;background-color:#FFF; display:none; border-top:1px solid #ccc; max-height:500px;overflow:scroll}
+    .zd_topmain a{ float:none; line-height:60px; text-align:center; border-bottom:1px solid #e5e5e5; padding:0}
+	.zd_topmain a span{background-color:#0689cd; color:#fff;  border-bottom:1px solid #5cb6e5; line-height:42px; font-size:14px;}
+	.zd_banner{ height:240px; margin-top:60px}
+	.zd_banner img{ width:800px; margin-left:-400px}
+	.zd_title{ padding:20px 0}
+	.zd_product{ padding-bottom:0}
+	.zd_product li{ width:auto;margin-bottom:20px}
+	.zd_product *{ margin:auto; float:none;}
+	.zd_newimg{ width:auto; height:auto}
+	.zd_newimg img{ width:100%;}
+	.zd_newtext{ margin:auto; padding:0 20px 40px}
+	.zd_news{ padding-bottom:20px}
+	.zd_usimg{ margin-bottom:20px}
+	.zd_ustext{ margin:auto; }
+	.zd_newtext{ height:auto}
+	.zd_contact{ margin:20px 0;padding-bottom:0}
+	.zd_contact li{ width:auto; float:none; margin-bottom:50px; }
+	.zd_footmain{ height:auto; padding:20px 0}
+	.zd_footmain span{ float:none; line-height:24px;}
+	.zd_footmain img{ float:none; margin-top:10px}
+	.zd_banner1{ padding-top:60px}
+	.zd_newcont li{ padding:20px 0}
+	.zd_newcont dt{ width:120px; height:80px}
+	.zd_newcont dd{ margin-left:130px; height:80px}
+	.zd_newcont dd h1{ margin:auto 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+	.zd_newcont dd h2{ height:26px}
+	.zd_newcont dd h3{ margin-top:5px}
+	.zd_newcont dd h3 span{ display:none}
+	.zd_newcont dd h3 a{ margin-top:0}
+	.zd_fangan li{ background:none; height:auto; padding:20px 0}
+	.zd_fangan dl{ float:none; width:auto; margin-top:0 }
+	.zd_service li{ float:none; width:auto; padding:20px 0}
+	.zd_success li{ float:none; margin:20px auto; width:auto}
+	.zinav2,.zinav3{ display:none}
+	.zd_brief{ margin-left:90px; overflow:hidden}
+	.zd_brief img{ float:none; width:100%}
+	.zd_brief iframe{ height:250px}
+	.zd_brief em{ white-space:nowrap; display:block}
+	.zd_brief a{ word-break:break-all}
+	.zd_honor li{ width:auto}
+	.details{ padding:10px}
+	.zd_banner1{ height:200px}
+	.zd_banner1 img{left:17%}
+	.zd_complete img{ width:100%}
+	.details .line-height-80{ line-height:30px; padding-bottom:20px}
+	.details{ margin-left:0}
+	.details img{ width:100%}
+	}

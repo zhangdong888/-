@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0; font-size:16px; border:none; background-color:transparent; outline:none; font-weight:normal; font-style:normal; text-decoration:none; color:#333; font-family:"微软雅黑"; list-style:none}
+html,body{ height:100%;}
+img{ display:block}
+
+.font-weight{ font-weight:bold}
+.font-italic{ font-style:italic}
+
+.font-14{ font-size:14px}
+.font-16{ font-size:16px}
+.font-18{ font-size:18px}
+.font-20{ font-size:20px}
+.font-22{ font-size:22px}
+.font-24{ font-size:24px}
+.font-26{ font-size:26px}
+.font-30{ font-size:30px}
+.font-36{ font-size:36px}
+
+.txt-left{ text-align:left}
+.txt-center{ text-align:center}
+.txt-right{ text-align:right}
+.txt-just{ text-align:justify}
+
+.line-height-20{ line-height:20px}
+.line-height-24{ line-height:24px}
+.line-height-28{ line-height:28px}
+.line-height-30{ line-height:30px}
+.line-height-36{ line-height:36px}
+.line-height-48{ line-height:48px}
+.line-height-72{ line-height:72px}
+.line-height-80{ line-height:80px}
+.line-height-100{ line-height:100px}
+
+.color-orange{ color:#fe8a23}
+.color-yellow{ color:#faff64}
+.color-white{ color:#FFF}
+.color-blue{ color:#1296db}
+.color-green{ color:#12976d}
+.color-green1{ color:#12976d}
+.color-grey-40{ color:#666}
+.color-grey-60{ color:#999}
+
+.bg-blue{ background-color:#009ad1}
+.bg-purple{ background-color:#9152ab}
+.bg-orange{ background-color:#f59203}
+.bg-red{ background-color:#ec4a31}
+.bg-grey-96{ background-color:#f5f5f5}
+
+.txt-ident-30{ text-indent:30px}
+
+.border-grey-80{ border:1px solid #ccc}
+.border-grey-88{ border:1px solid #e0e0e0}
+.border-bot-grey-80{ border-bottom:1px solid #ccc}
+.border-bot-grey-84{ border-bottom:1px solid #d6d6d6}
+
+.disine-block{ display:inline-block}
+.disblock{ display:block}
+.disline{ display:inline}
+
+.over-hidden{ overflow:hidden}
+.posrel{ position:relative}
+.posabs{ position:absolute}
+.float-left{ float:left}
+.float-right{ float:right}
+
+.margin-auto{ margin:auto}
+.margin-top-5{ margin-top:5px}
+.margin-top-10{ margin-top:10px}
+.margin-top-15{ margin-top:15px}
+.margin-top-20{ margin-top:20px}
+.margin-top-30{ margin-top:30px}
+.margin-bot-5{ margin-bottom:5px}
+.margin-bot-10{ margin-bottom:10px}
+.margin-bot-15{ margin-bottom:15px}
+.margin-bot-20{ margin-bottom:20px}
+.margin-bot-50{ margin-bottom:50px}
+.margin-left-5{ margin-left:5px}
+.margin-left-10{ margin-left:10px}
+.margin-left-15{ margin-left:15px}
+.margin-left-20{ margin-left:20px}
+.margin-right-5{ margin-right:5px}
+.margin-right-10{ margin-right:10px}
+.margin-right-15{ margin-right:15px}
+.margin-right-20{ margin-right:20px}
+
+.padding-top-5{ padding-top:5px}
+.padding-top-10{ padding-top:10px}
+.padding-top-15{ padding-top:15px}
+.padding-top-20{ padding-top:20px}
+.padding-top-50{ padding-top:50px}
+.padding-bot-5{ padding-bottom:5px}
+.padding-bot-10{ padding-bottom:10px}
+.padding-bot-15{ padding-bottom:15px}
+.padding-bot-20{ padding-bottom:20px}
+.padding-bot-30{ padding-bottom:30px}
+.padding-bot-50{ padding-bottom:50px}
+.padding-left-5{ padding-left:5px}
+.padding-left-10{ padding-left:10px}
+.padding-left-15{ padding-left:15px}
+.padding-left-20{ padding-left:20px}
+.padding-right-5{ padding-right:5px}
+.padding-right-10{ padding-right:10px}
+.padding-right-15{ padding-right:15px}
+.padding-right-20{ padding-right:20px}
+
+.ponter{ cursor:pointer}
